@@ -2,7 +2,7 @@
 
 ## link to published portfolio website
 
-[My portfolio website]()
+[My portfolio website](https://631045a5c014d21dd901521c--steady-squirrel-a21e47.netlify.app/index.html)
 
 ## link to my GitHub repo
 
@@ -10,7 +10,7 @@
 
 ## Youtube presentation
 
-[Youtube presentation]()
+[Youtube presentation](https://www.youtube.com/watch?v=Kx2AGvDRCd0)
 
 ## Purpose & target audience
 
