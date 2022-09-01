@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Raleway:wght@300;400;500&display=swap"
+          rel="stylesheet">
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Marion Akinyi | Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body id="main">
+
+<!-- Navbar with navigation links-->
+<nav class="navbar">
+    <a class="navbar-brand" href="index.html">MARION AKINYI</a>
+    <div class="navbar-and-social">
+        <ul class="nav-links">
+            <li>
+                <a href="index.html">HOME</a>
+            </li>
+            <li>
+                <a href="resume.html">RESUME</a>
+            </li>
+            <li>
+                <a href="index.html#blog">
+                    BLOG
+                </a>
+            </li>
+        </ul>
+        <div class="do-not-display-small">
+            <ul class="social-icons">
+                <li>
+                    <a href="mailto:marionakinyi.ma@gmail.com" style="color:black; font-size:48px" target="_blank">
+                        <img src="images/email.png" alt="email icon">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/marie-debug" style="color:black; font-size:48px" target="_blank">
+                        <img src="images/github.png" alt="github icon">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.linkedin.com/in/marion-akinyi-dianga/" style="color:black; font-size:48px"
+                       target="_blank">
+                        <img src="images/linkedin.png" alt="github icon">
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="main-container">
+    <!-- Project blog section -->
+    <article class="post" id="Analysis-Of-Our-Fortnight-Budget">
+        <div>
+            <h1 class="post-title">Analysis Of Our Fortnight Budget</h1>
+            <p class="lead-in-date">published: 2021-07-26 </p>
+        </div>
+        <div class="post-content">
+            <div class="post-image-container">
+                <img src="images/analysis-of-fortnight-budget.jpg" alt="screenshot of  fortnight budget analysis graph">
+            </div>
+            <div class="post-description">
+                <h2>Background</h2>
+
+                <p>An analysis of my fortnightly budget to get a clear picture of income and expenses</p>
+
+                <h3>Objectives:</h3>
+                <ul>
+                    <li>learn python libraries</li>
+                    <li>learn data collection</li>
+                    <li>learn data wrangling</li>
+                    <li>learn data analysis</li>
+                    <li>learn to interpret results</li>
+                </ul>
+                <p><a href="https://github.com/marie-debug/An-Analysis-Of-Our-Fortnight-Budget/">Link to project on
+                    Github</a></p>
+
+                <h3>How it went</h3>
+
+                <p>The first step was to clearly define the questions and goals for this project. I wanted to understand
+                    and improve how we spent and managed our money. This would ensure that we utilized all available
+                    finances
+                    efficiently to meet our overall goals. I wanted to represent my data in graphs. I decided to use
+                    matplotlib after some research.</p>
+                <p>I was working with array data sets, therefore I looked into different websites and stumbled on NumPy,
+                    which is a python
+                    library used for working with arrays. I used pip to install and import it by adding the import
+                    keyword.</p>
+                <h4>Resources used to learn:</h4>
+                <ul>
+                    <li> matplot lib documentation</li>
+                    <li>youtube videos</li>
+                </ul>
+                <h4>Things learnt:</h4>
+                <ul>
+                    <li>(matplotlib) pyplot interfaces</li>
+                    <li>(matplotlib) Axis scales and ticks</li>
+                    <li>(matplotlib) labelLing plots</li>
+                    <li>(NumPy) array creation using the <code>arange()</code>function</li>
+                    <li>(NumPy) array slicing and indexing</li>
+                    <li>(NumPy) array iterating</li>
+                </ul>
+                <p>Next was plotting the graph. This was achieved by setting the x and y labels. The graphs were so
+                    close together and
+                    didn't appear as neat as I wanted them to be, further research led to grid spec which is a function
+                    of maplotlib that
+                    allows us to specify the geometry of the grid where a subplot will be placed. To make the graphs
+                    easier to read and
+                    pretty, I added colour to the lines, markers and labels.</p>
+
+                <h3> ADDING ANIMATION</h3>
+
+                <p>To challenge myself even further (as if this wasn't enough 😅) I decided to animate some graphs. This
+                    was a
+                    steep learning curve for sure, majorly because some concepts were new.</p>
+
+                <h4>Resources used to learn:</h4>
+                <ul>
+                    <li>geekforgeeks</li>
+                    <li>StackOverflow</li>
+                    <li>neuralNine (youtube channel)</li>
+                </ul>
+
+                <h4>Things learnt:</h4>
+                <ul>
+                    <li>animation using matplotlib's <code>funcAnimation()</code> function</li>
+
+                </ul>
+
+                <h3> FINDING CORRELATION</h3>
+
+                <p>I also decided to explore if there was a correlation between the data sets. after a bit of research,
+                    I came across a
+                    python library called scipy. Scipy provides more utility functions for optimization, stats and
+                    signal processing I used it to find Pearson correlation coefficient, to represent linear
+                    relationships between two datasets. I used a scatter plot to display the relationship between our
+                    groceries and
+                    takeout.</p>
+
+                <h4>Resources used to learn:</h4>
+                <ul>
+                    <li>geekforgeeks.com</li>
+                    <li>scipy Github docs</li>
+                    <li>scipy.org</li>
+                </ul>
+
+                <h4>Things learnt:</h4>
+                <ul>
+                    <li>calculating correlation between variables in python</li>
+                    <li>parametric correlation analysis</li>
+
+                </ul>
+
+                <p>lastly to add a bit of spice I represented all the data sets in a pie chart.</p>
+
+                <h3>CONCLUSION</h3>
+
+                <p>I was hoping to see a strong negative correlation between groceries and takeout as I had hoped that
+                    the more groceries we bought the
+                    lower the amount of takeout. However, the analysis showed that we ordered groceries and still
+                    ordered more take out 🤦🏽‍♀️. ( I knew this deep down
+                    lol)</p>
+
+                <p>This was my first project, and I really enjoyed working with these data sets and the insights I got
+                    from this
+                    analysis. I got to see what can be achieved through data analysis as a whole.</p>
+
+
+            </div>
+        </div>
+    </article>
+
+
+</div>
+
+<!-- Footer with contact information and site map-->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-icons">
+            <ul class="social-icons do-not-display-large">
+                <li>
+                    <a href="mailto:marionakinyi.ma@gmail.com" target="_blank">
+                        <img src="images/email.png" alt="email icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/marie-debug" target="_blank">
+                        <img src="images/github.png" alt="github icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/marion-akinyi-dianga/" target="_blank">
+                        <img src="images/linkedin.png" alt="github icon">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <ul class="footer-links">
+            <li class="text-footer">
+                <a href="privacy.html">privacy policy</a>
+            </li>
+
+        </ul>
+    </div>
+</footer>
+
+</body>
+</html>

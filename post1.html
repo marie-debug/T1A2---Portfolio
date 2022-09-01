@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Raleway:wght@300;400;500&display=swap"
+          rel="stylesheet">
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Marion Akinyi | Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body id="main">
+
+<!-- Navbar with navigation links-->
+<nav class="navbar">
+    <a class="navbar-brand" href="index.html">MARION AKINYI</a>
+    <div class="navbar-and-social">
+        <ul class="nav-links">
+            <li>
+                <a href="index.html">HOME</a>
+            </li>
+            <li>
+                <a href="resume.html">RESUME</a>
+            </li>
+            <li>
+                <a href="index.html#blog">
+                    BLOG
+                </a>
+            </li>
+        </ul>
+        <div class="do-not-display-small">
+            <ul class="social-icons">
+                <li>
+                    <a href="mailto:marionakinyi.ma@gmail.com" style="color:black; font-size:48px" target="_blank">
+                        <img src="images/email.png" alt="email icon">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/marie-debug" style="color:black; font-size:48px" target="_blank">
+                        <img src="images/github.png" alt="github icon">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.linkedin.com/in/marion-akinyi-dianga/" style="color:black; font-size:48px"
+                       target="_blank">
+                        <img src="images/linkedin.png" alt="github icon">
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="main-container">
+
+    <!-- Project blog section -->
+    <article class="post" id="portfolio-website">
+        <div>
+            <h1 class="post-title">Portfolio website showcasing my work</h1>
+            <p class="lead-in-date">published: 2022-02-04 </p>
+        </div>
+        <div class="post-content">
+            <div class="post-image-container">
+                <img src="images/marion-akinyi-portfolio.jpg" alt="portfolio website">
+            </div>
+            <div class="post-description">
+                <h2>Background.</h2>
+                <p>Portfolio website to showcase projects and career information</p>
+                <h3>Objectives</h3>
+                <ul>
+                    <li>learn SQL and database creation</li>
+                    <li>learn HTML</li>
+                    <li>learn CSS</li>
+                    <li>learn python web development</li>
+                    <li>learn how to use and create API</li>
+                </ul>
+                <p><a href="https://github.com/marie-debug/Portfolio">link to GitHub</a></p>
+                <h3>How it went</h3>
+                <h4>FLASK</h4>
+                <p>The first step was to understand how to build a website using python, after doing some googling two
+                    frameworks kept showing up flask and Django. I ended up choosing flask because it seemed&nbsp;
+                    straightforward.</p>
+                <p>Went through official flask docs but stack overflow seemed to be easier to get the information I
+                    needed to get started. I ran pip&nbsp; install flask and created my first route! That pointed to a
+                    HTML file with hello world text 😃</p>
+                <h4>HTML AND CSS</h4>
+                <p>Next was to learn HTML and CSS mainly used YouTube to watch some tutorials to learn the basics.Next,
+                    I had to look at different websites to get a feel of what was out there and also to get an idea of
+                    other portfolio website ideas.</p>
+                <h4>Things learnt:</h4>
+                <ul>
+                    <li>HTML tags</li>
+                    <li>HTML open tags need to be closed</li>
+                    <li>HTML tags can have properties</li>
+                    <li>HTML has different types of tags some change how text displays i.e h1 to h2, p tags have special
+                        use cases e.g a tags and img tags
+                    </li>
+                    <li>HTML tags can have properties class, Id, style etc</li>
+                    <li>CSS is used to customize text, backgrounds, colour, size, layout etc</li>
+                    <li>CSS can create custom classes and apply those classes to HTML by using id or classes
+                        attributes.
+                    </li>
+                    <li>CSS makes things 😍</li>
+                </ul>
+                <h4>Resources used:</h4>
+                <ul>
+                    <li>Pinterest for website inspiration</li>
+                    <li>Medium.</li>
+                    <li>youtube</li>
+                </ul>
+                <p>Next, I stumbled across a framework called Bootstrap.</p>
+                <ul>
+                    <li>It's a framework used to create responsive websites.</li>
+                    <li>It helps with layout</li>
+                    <li>It has helper CSS classes that make life easier</li>
+                </ul>
+                <p>I spent time experimenting with Bootstrap and layout until I got a design I was happy with. I wanted
+                    to separate the website content from the HTML, so I had an idea to put the website content in JSON,
+                    then read that JSON file and pass the content to the flask render_template function, and finally use
+                    jinja2 to render the content.</p>
+                <p>Creating a JSON file wasn't as hard once I realized it was a list of dictionaries. Hence I could loop
+                    through and use an index to access different entries.</p>
+                <h4>GIT</h4>
+                <p>Initially, I had to undo my work frequently especially when I stumbled on an error. I was also
+                    storing all my data and programs locally, working with an 8-year-old dodgy computer, if in the
+                    likely event that it stopped working&nbsp; everything would be lost!! I then remembered that I had
+                    used GIT before in one of my earlier projects to keep track of my code history. I had to relearn GIT
+                    commands as it had been a while. some commands include but are not limited to:</p>
+                <ul>
+                    <li>Git initialization</li>
+                    <li>Git add</li>
+                    <li>Git status</li>
+                    <li>Git commit</li>
+                    <li>Git push</li>
+                </ul>
+                <h4>SOLVING BUGS</h4>
+                <p>Once I had created my website I started to realize certain bugs when I tested it especially when I
+                    tried to access my site on small screen devices. Some problems were:</p>
+                <ul>
+                    <li>navbar overlapped onto text when clicked</li>
+                    <li>button sizes appeared smaller</li>
+                    <li>the footer was fixed and hence hid the page</li>
+                    <li>headers appeared smaller</li>
+                </ul>
+                <p>To overcome some of these challenges: my javascript initiation began😅. I used js to add event
+                    listeners to the Navbar and to learn this</p>
+                <p>While doing some performance tests, I noticed that flask was not handling many connections per second
+                    and reporting a lot of errors! wtf!. I needed&nbsp; a 'Hermes flask' <img
+                            src="images/smiley-laughing.gif" alt="laughing">. I did a bit of research and stumbled on
+                    Gunicorn. Gunicorn works by internally calling your flask code, this results in your app being able
+                    to handle many requests per second.</p>
+                <h4>Resources used:</h4>
+                <ul>
+                    <li>YouTube videos</li>
+                    <li>stack overflow</li>
+                    <li>We3 schools</li>
+                </ul>
+                <h4>Things learnt:</h4>
+                <ul>
+                    <li>nodejs</li>
+                    <li>event listeners</li>
+                    <li>nodejs data structures</li>
+                    <li>creating classes in css</li>
+                </ul>
+                <h4>DATABASES</h4>
+                <p>I wanted to learn about databases as I came across them in all of the data science platforms. I
+                    decided to use the PostgreSQL database add on service that was available on Heroku to store and
+                    retrieve my data as opposed to the JSON file that I was using.&nbsp; I also&nbsp; needed a faster
+                    way to deploy new tests and applications anywhere&nbsp; rather than doing it on-site on my local
+                    computer. I stumbled on Heroku. Heroku is a Cloud Platform as a service (PaaS).</p>
+                <p>Being quite new at this I initially used a GUI, pgAdmin 4 it made it easier to manipulate schema and
+                    data in the database. However, with time i was able to write queries by myself as i progressed.</p>
+                <p>Next,to connect my python to the database, I imported the psycopg2 library. I inserted dummy data
+                    into my DB to test if I could retrieve data from DB using python, after a few syntax errors lol I
+                    was successful. I set up a database in Heroku and used the database URL from Heroku to connect and
+                    update my HTML files to access information from my&nbsp; database. ( I always tested this on my
+                    local environment before pushing to development).&nbsp;</p>
+                <p>At this point the web page looked pretty solid, however going through my code I could see
+                    repetitions, so to have cleaner code I used DRY coding principles (Don't repeat yourself). The
+                    benefits I saw from this were:</p>
+                <ul>
+                    <li>maintainability- changing and updating code was way easier</li>
+                    <li>reuse - I was able to reuse some parts of the code and this in the long run reduced development
+                        time.
+                    </li>
+                </ul>
+                <h4>Resources used:</h4>
+                <ul>
+                    <li>The Heroku dev -centre docs were super straightforward and took me through the whole process
+                        from installation to finally connecting my git to Heroku.
+                    </li>
+                    <li>Stack abuse website</li>
+                    <li><a>https://www.postgresqltutorial.com/ </a>This site was very helpful easy to follow through
+                        with simple examples.
+                    </li>
+                    <li>Youtube</li>
+                </ul>
+                <h4>Things learnt:</h4>
+                <ul>
+                    <li>PostgreSQL data types</li>
+                    <li>Database constraints</li>
+                    <li>Managing tables</li>
+                    <li>nodejs NPM</li>
+                    <li>requirements.txt file that lists all dependencies</li>
+                    <li>procfile - it includes all the commands that are executed by the app when it runs.</li>
+                </ul>
+                <h4>MICROSERVICES</h4>
+                <p>Finally, I wanted to dynamically access and manage my data from my browser. I decided to use Forest
+                    admin for this. Forest admin provides&nbsp; an API hosted on your server to retrieve your data. I
+                    also used Amazon s3 to store my image files. Amazon s3 is an object storage service that stores
+                    objects in buckets.&nbsp; once this was done I added a file upload action from forest admin that
+                    pushes images to s3.</p>
+                <h4>Things learnt:</h4>
+                <ul>
+                    <li>creating s3 bucket policy</li>
+                    <li>securing Amazon s3 buckets</li>
+                    <li>linking microservices</li>
+                    <li>initializing forest admin</li>
+                    <li>connecting forest admin to my pgSQL database</li>
+                </ul>
+
+                <h3>CONCLUSION</h3>
+                <p>I learned so much in this project. From web development, data retrieval, data storage, javascript and
+                    improving on my python skills.</p>
+            </div>
+        </div>
+    </article>
+</div>
+
+
+<!-- Footer with contact information and site map-->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-icons">
+            <ul class="social-icons do-not-display-large">
+                <li>
+                    <a href="mailto:marionakinyi.ma@gmail.com" target="_blank">
+                        <img src="images/email.png" alt="email icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/marie-debug" target="_blank">
+                        <img src="images/github.png" alt="github icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/marion-akinyi-dianga/" target="_blank">
+                        <img src="images/linkedin.png" alt="github icon">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <ul class="footer-links">
+            <li class="text-footer">
+                <a href="privacy.html">privacy policy</a>
+            </li>
+
+        </ul>
+    </div>
+</footer>
+
+</body>
+</html>

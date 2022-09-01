@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Raleway:wght@300;400;500&display=swap"
+          rel="stylesheet">
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Marion Akinyi | Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body id="main">
+
+<!-- Navbar with navigation links-->
+<nav class="navbar">
+    <a class="navbar-brand" href="index.html">MARION AKINYI</a>
+    <div class="navbar-and-social">
+        <ul class="nav-links">
+            <li>
+                <a href="index.html">HOME</a>
+            </li>
+            <li>
+                <a href="resume.html">RESUME</a>
+            </li>
+            <li>
+                <a href="index.html#blog">
+                    BLOG
+                </a>
+            </li>
+        </ul>
+        <div class="do-not-display-small">
+            <ul class="social-icons">
+                <li>
+                    <a href="mailto:marionakinyi.ma@gmail.com" style="color:black; font-size:48px" target="_blank">
+                        <img src="images/email.png" alt="email icon">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/marie-debug" style="color:black; font-size:48px" target="_blank">
+                        <img src="images/github.png" alt="github icon">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.linkedin.com/in/marion-akinyi-dianga/" style="color:black; font-size:48px"
+                       target="_blank">
+                        <img src="images/linkedin.png" alt="github icon">
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="main-container">
+    <!-- Project blog section -->
+    <article class="post" id="country-visa-transformer">
+        <div>
+            <h1 class="post-title">Country visa status transformer</h1>
+            <p class="lead-in-date">published: 2022-03-11 </p>
+        </div>
+        <div class="post-content">
+            <div class="post-image-container">
+                <img src="images/country-data-transformer.jpg" alt="screenshot of country visa transformer code base">
+            </div>
+            <div class="post-description">
+                <h2>Background.</h2>
+                <p>Country data transformer to learn API's and data cleaning processes ( in progress) </p>
+                <h3>Objectives</h3>
+                <ul>
+                    <li>learn SQL and database creation</li>
+                    <li>learn hitting API's</li>
+                    <li>learn data wrangling</li>
+                    <li>learn data cleaning</li>
+                </ul>
+                <p><a href="https://github.com/marie-debug/country-visa-data-transformer">link to GitHub</a></p>
+
+                <h3>How it's going.. </h3>
+
+                <h4>DATA ACQUISITION</h4>
+                <p>I wanted to get country data relating to visas status so I found a website with this data. The
+                    website had undocumented API so I contacted the website creator and they were happy to give me end
+                    points I needed to hit to get the data .</p>
+                <h4>API's</h4>
+                <p>
+                    The first step was to understand how to hit API's and extract data then transform the data .I used
+                    python request module. the request returned was in JSON and had some dirty data. I then had to clean
+                    the data and transform the JSON file to pandas dataframe so as to insert into PSQL table </p>
+                <p>Went through official pandas docs but stack overflow seemed to be easier to get the information I
+                    needed to get started. I ran pip install sqlalchemy! </p>
+                <h4>PANDAS AND SQLALCHEMY</h4>
+                <p>Next was to to understand how to add data to database from an API. I ended up using pandas to insert
+                    data to postgress. Mainly used YouTube to watch some tutorials to learn the basics.</p>
+                <h4>Things learnt:</h4>
+                <ul>
+                    <li>pandas</li>
+                    <li>API's</li>
+                    <li>SQLAlchemy library</li>
+                    <li>mapping</li>
+                </ul>
+                <h4>Resources used:</h4>
+                <ul>
+                    <li>Medium.</li>
+                    <li>youtube</li>
+                </ul>
+                <h4>PSQL</h4>
+                <p>Next, i needed to have a deeper understanding of psql I took a course in SQL some concepts learnt
+                    include but are not limited to:</p>
+                <ul>
+                    <li>Syntax</li>
+                    <li>Data types</li>
+                    <li>Creating and updating Databases</li>
+                    <li>Schemas</li>
+                    <li>Select queries</li>
+                </ul>
+                <h4>Resources used:</h4>
+                <ul>
+                    <li>Udemy</li>
+                </ul>
+
+                <h3>CONCLUSION</h3>
+                <p>This is an ongoing project and I am updating as I go.</p>
+            </div>
+        </div>
+    </article>
+
+
+</div>
+
+<!-- Footer with contact information and site map-->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-icons">
+            <ul class="social-icons do-not-display-large">
+                <li>
+                    <a href="mailto:marionakinyi.ma@gmail.com" target="_blank">
+                        <img src="images/email.png" alt="email icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/marie-debug" target="_blank">
+                        <img src="images/github.png" alt="github icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/marion-akinyi-dianga/" target="_blank">
+                        <img src="images/linkedin.png" alt="github icon">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <ul class="footer-links">
+            <li class="text-footer">
+                <a href="privacy.html">privacy policy</a>
+            </li>
+
+        </ul>
+    </div>
+</footer>
+
+</body>
+</html>
